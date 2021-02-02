@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inneroutline{
+    width: 90%;
+    height: 700px;
+    background-color: #ffffff;
+    margin: auto;
+    
+}
+.topheadstrip{
+    height: 50px;
+    background-color: #4d97f3;
+}
+.mailicon{ 
+    padding-right: 5px; 
+    vertical-align: middle;
+}
+.callicon{ 
+    padding-right: 5px; 
+    vertical-align: middle;
+}
+.logo_menu{
+    height: 75px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    width: 90px;
+}
+
+.menuarrowicon{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.blueboxonhero{
+    width: 90%;
+    height: 300px;
+    background-color: #4d97f3;
+    position: absolute;
+    left: 70px;
+    top: 475px;
+
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid white; */
+    float: left;
+  }
+  .box2 {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid white; */
+    float: right;
+
+  }
+  .box3 {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid white; */
+    float: left;
+  }
+  .featurecourses{
+      width: 100%;
+      height: 800px;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      margin: auto;
+      margin-top: 150px;
+      text-align: center; padding-top: 50px; font-size: 36px;
+  }
+
+
+/* .separatorline{
+    background-color: #000000;
+    width: 4%;
+    height: 1px;
+} */
+
+.separatorline {
+    background: #606060 none repeat scroll 0 0;
+    bottom: 680px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 6%;
+}
+.separatorlinewhite {
+    background: #ffffff50;
+    bottom: 425px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 6%;
+}
+.separatorlinewhiteS {
+    background: #ffffff50;
+    bottom: 415px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 3%;
+}
+.separatorlineblack {
+    background: #00000050;
+    bottom: 675px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 6%;
+}
+.separatorlineblackS {
+    background: #00000050;
+    bottom: 665px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 3%;
+}
+
+
+
+.image-card-1{
+    width: 365px;
+    height: 550px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    box-shadow: 0px 2px 5px #bebebe;
+    margin-top: 0px;
+
+}
+.image-card-2{
+    width: 360px;
+    height: 700px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    box-shadow: 0px 2px 5px #bebebe;
+    margin-top: 0px;
+
+}
+.text-align-c{
+    text-align: center;
+}
+.orangebar{
+    position: absolute;
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    background-color: #e7aa38;
+    text-align: center;
+    margin: 10px 5px 10px 170px;
+    color: white;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.fontsize16{
+    font-size: 12px;
+}
+.roundimage{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 100px;
+}
+.applynow{
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    min-width: 64px;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0px 2px 5px #bebebe;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 36px;
+}
+.applynowwhite{
+    color: #333333;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    min-width: 64px;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px #bebebe;
+    font-size: 14px;
+    line-height: 36px;
+}
+.applynowwhite:hover{
+    background-color: #4d97f3;
+    color: white;
+    box-shadow: 0 0px 10px 5px #d6d6d6;
+    transition: 0.3s;
+}
+
+.image-card-1:hover{
+    box-shadow: 0 0px 10px 5px #d6d6d6;
+    transition: 0.3s;
+}
+.image-card-2:hover{
+    box-shadow: 0 0px 10px 5px #d6d6d6;
+    transition: 0.3s;
+}
+.gallerybg{
+    background-color: #f1f1f1; height: 1500px;
+}
+
+
+.blackbox{
+    width: 100%;
+    height: 500px;
+    background-color: #252525;
+    position: relative;
+    margin: auto;
+    text-align: center; font-size: 36px; color: white;
+    padding: 100px; text-align: center;
+}
+.blackcards{
+    width: 260px;
+    height: 150px;
+    background-color: #000000;
+}
+
+.ourteachers{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    text-align: center; padding-top: 50px; font-size: 36px;
+}
+.gallery{
+    width: 100%;
+    height: 200px;
+    background-color: #f5f5f5;
+    padding-left: 75px; padding-top: 25px; font-size: 36px;
+}
+
+
+
+
+.separatorline {
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.lineblack{
+    background: #00000050;
+}
+.linewhite{
+    background: #ffffff50;
+}
+.line-ourteachersup{
+    bottom: 875px;
+    width: 6%;
+}
+.line-ourteachersbt{
+    bottom: 865px;
+    width: 3%;
+}
+/* .line-galleryup{
+    bottom: 15px;
+    width: 6%;
+}
+.line-gallerybt{
+    bottom: 25px;
+    width: 3%;
+} */
+.galleryimage{
+    width: 300px;
+
+}
+
+    
+.dropbtn {
+        color: #333333;
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+        border: none;
+        background-color: white;
+}
+      
+.dropdown {
+        position: relative;
+        display: inline-block;
+        
+      }
+      
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 180px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        transition: 0.3s;
+}
+      
+.dropdown-content span {
+        color: black;
+        padding: 12px 16px;
+        background-color: white;
+        display: block;
+}
+      
+.dropdown-content span:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+    cursor: pointer;
+}
+      
+.dropdown:hover .dropdown-content {
+          display: block;
+}
+      
+.dropdown:hover .dropbtn {
+          background-color: #4d97f3;
+
+}
+
+  
